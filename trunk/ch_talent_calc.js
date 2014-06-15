@@ -19,7 +19,7 @@ function calc(){
 	IceMagic = document.autoSumForm.IceMagic_field.value;
 
 
-	document.autoSumForm.Abundance.value = (19.592 * Math.sqrt(Focus)) + (6.1866 * Math.sqrt(NatureMagic)) + 411.94;
+	document.autoSumForm.Abundance.value = Floor((19.592 * Math.sqrt(Focus)) + (6.1866 * Math.sqrt(NatureMagic)) + 411.94);
 	document.autoSumForm.NaturesTouch.value = (28.89 * Math.sqrt(Focus)) + (8.9361 * Math.sqrt(NatureMagic)) + 452.42;
 	document.autoSumForm.Bark.value = (12.287 * Math.sqrt(Focus)) + (3.7807 * Math.sqrt(NatureMagic)) + 195.08;	
 	document.autoSumForm.Vines.value = (49.811 * Math.sqrt(Focus)) + (15.81 * Math.sqrt(NatureMagic)) + 265.82;
