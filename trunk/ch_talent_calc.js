@@ -18,6 +18,11 @@ function calc(){
 	FireMagic = document.autoSumForm.FireMagic_field.value;
 	IceMagic = document.autoSumForm.IceMagic_field.value;
 
+	StrAutoCalc = document.autoSumForm.StrAutoCalc.value;
+	WeaponAbility = document.autoSumForm.WeaponAbility.value;
+	PhysicalDamage = document.autoSumForm.PhysicalDamage.value;
+	ElementalDamage = document.autoSumForm.ElementalDamage.value;
+
 
 	document.autoSumForm.Abundance.value = Math.round((19.592 * Math.sqrt(Focus)) + (6.1866 * Math.sqrt(NatureMagic)) + Number(411.94));
 	document.autoSumForm.NaturesTouch.value = Math.round((28.89 * Math.sqrt(Focus)) + (8.9361 * Math.sqrt(NatureMagic)) + 452.42);
@@ -53,5 +58,7 @@ function calc(){
 	document.autoSumForm.DefensiveFormation.value = Math.round((16.664 * Math.sqrt(Vitality)) + (5.1654 * Math.sqrt(Melee)) + 101.07);
 	document.autoSumForm.ProtectiveStance.value = Math.round((13.86 * Math.sqrt(Vitality)) + (3.9263 * Math.sqrt(Melee)) + 142.4);
 	document.autoSumForm.ShieldWall.value = Math.round((65.35 * Math.sqrt(Vitality)) + (20.662 * Math.sqrt(Melee)) + 726.98);
+
+	document.autoSumForm.AutoDmgCalc.value = Math.round((((0.15818 * Math.sqrt(StrAutoCalc)) + (0.061069 * Math.sqrt(Weapon Ability)) + 0.96523) * Number(PhysicalDamage)) + Number(ElementalDamage);
 
 }
