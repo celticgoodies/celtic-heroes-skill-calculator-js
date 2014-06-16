@@ -57,10 +57,10 @@ function calc(){
 }
 
 function startAutoCalc(){
-  interval = setInterval("calc()",1);
+  interval2 = setInterval("AutoCalc()",1);
 }
 function stopAutoCalc(){
-	clearInterval(interval);
+	clearInterval(interval2);
 }
 function AutoCalc(){
 
