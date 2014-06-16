@@ -23,6 +23,9 @@ function calc(){
 	document.autoSumForm.NaturesTouch.value = (28.89 * Math.sqrt(Focus)) + (8.9361 * Math.sqrt(NatureMagic)) + 452.42;
 	document.autoSumForm.Bark.value = (12.287 * Math.sqrt(Focus)) + (3.7807 * Math.sqrt(NatureMagic)) + 195.08;	
 	document.autoSumForm.Vines.value = (49.811 * Math.sqrt(Focus)) + (15.81 * Math.sqrt(NatureMagic)) + 265.82;
+	document.autoSumForm.HowlingWind.value = (38.207 * Math.sqrt(Focus)) + (10.886 * Math.sqrt(NatureMagic)) + 693.63;
+	document.autoSumForm.LightningStrike.value = (73.547 * Math.sqrt(Focus)) + (20.743 * Math.sqrt(NatureMagic)) + 327.29;
+	
 
 	document.autoSumForm.FireAttunement.value = (22.331 * Math.sqrt(Focus)) + (10.044 * Math.sqrt(FireMagic)) + 307.16;
 	document.autoSumForm.FireBolt.value = (72.853 * Math.sqrt(Focus)) + (21.611 * Math.sqrt(FireMagic)) + 264.84;
