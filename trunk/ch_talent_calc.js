@@ -70,6 +70,6 @@ function AutoCalc(){
 	PhysicalDamage = document.autoDmgForm.PhysicalDamage.value;
 	ElementalDamage = document.autoDmgForm.ElementalDamage.value;
 
-	document.autoSumForm.AutoDmgCalc.value = ((0.15818 * Math.sqrt(StrAutoCalc)) + (0.061069 * Math.sqrt(WeaponAbility)) + 0.96523) * Number(PhysicalDamage)) + Number(ElementalDamage);
+	document.autoSumForm.AutoDmgCalc.value = ((0.15818 * Math.sqrt(StrAutoCalc)) + (0.061069 * Math.sqrt(WeaponAbility)) + 0.96523) * Number(PhysicalDamage);
 
 }
