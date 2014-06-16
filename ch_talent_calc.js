@@ -65,11 +65,12 @@ function stopAutoCalc(){
 function AutoCalc(){
 
 
-	StrAutoCalc = document.autoSumForm.StrAutoCalc.value;
-	WeaponAbility = document.autoSumForm.WeaponAbility.value;
-	PhysicalDamage = document.autoSumForm.PhysicalDamage.value;
-	ElementalDamage = document.autoSumForm.ElementalDamage.value;
+	StrAutoCalc = document.autoDmgForm.StrAutoCalc.value;
+	WeaponAbility = document.autoDmgForm.WeaponAbility.value;
+	PhysicalDamage = document.autoDmgForm.PhysicalDamage.value;
+	ElementalDamage = document.autoDmgForm.ElementalDamage.value;
 
-	//document.autoSumForm.AutoDmgCalc.value = Math.round((((0.15818 * Math.sqrt(StrAutoCalc)) + (0.061069 * Math.sqrt(WeaponAbility)) + 0.96523) * Number(PhysicalDamage)) + Number(ElementalDamage));
-document.autoSumForm.AutoDmgCalc.value = WeaponAbility;
+	/*document.autoSumForm.AutoDmgCalc.value = Math.round((((0.15818 * Math.sqrt(StrAutoCalc)) + (0.061069 * Math.sqrt(WeaponAbility)) + 0.96523) * Number(PhysicalDamage)) + Number(ElementalDamage));
+*/
+document.autoDmgForm.AutoDmgCalc.value = WeaponAbility;
 }
