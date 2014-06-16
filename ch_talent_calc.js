@@ -55,7 +55,7 @@ function calc(){
 	document.autoSumForm.ProtectiveStance.value = Math.round((13.86 * Math.sqrt(Vitality)) + (3.9263 * Math.sqrt(Melee)) + 142.4);
 	document.autoSumForm.ShieldWall.value = Math.round((65.35 * Math.sqrt(Vitality)) + (20.662 * Math.sqrt(Melee)) + 726.98);
 }
-
+/*
 function startAutoCalc(){
   interval = setInterval("calc()",1);
 }
@@ -73,3 +73,4 @@ function AutoCalc(){
 	document.autoSumForm.AutoDmgCalc.value = Math.round((((0.15818 * Math.sqrt(StrAutoCalc)) + (0.061069 * Math.sqrt(WeaponAbility)) + 0.96523) * Number(PhysicalDamage)) + Number(ElementalDamage);
 
 }
+*/
