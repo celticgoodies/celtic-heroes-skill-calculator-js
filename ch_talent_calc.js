@@ -52,6 +52,6 @@ function calc(){
 
 	document.autoSumForm.DefensiveFormation.value = (16.664 * Math.sqrt(Vitality)) + (5.1654 * Math.sqrt(Melee)) + 101.07;
 	document.autoSumForm.ProtectiveStance.value = (13.86 * Math.sqrt(Vitality)) + (3.9263 * Math.sqrt(Melee)) + 142.4;
-	document.autoSumForm.ShieldWall.value = (65.35 * Math.sqrt(Vitality)) + (20.662 * Math.sqrt(Melee)) + 726.98;
+	document.autoSumForm.ShieldWall.value = Math.round((65.35 * Math.sqrt(Vitality)) + (20.662 * Math.sqrt(Melee)) + Number(726.98));
 
 }
