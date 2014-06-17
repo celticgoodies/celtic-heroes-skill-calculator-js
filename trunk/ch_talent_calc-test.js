@@ -79,7 +79,7 @@ function AutoCalc(){
 }
 
 function showRow(param) {
-	var class = document.getElementById('class-choice').value;
+	var class-choice = document.getElementById("class-choice").value;
 	if(param == "Druid"){
     		document.getElementById("Druid").style.display = "";
    		document.getElementById("Mage").style.display = "none";
