@@ -79,11 +79,21 @@ function AutoCalc(){
 }
 
 
-function showRow(rowId) {
-    document.getElementById(rowId).style.display = "";
-}
-function hideRow(rowId) {
-    document.getElementById(rowId).style.display = "none";
+function showRow() {
+	if(document.autoDmgForm.PhysicalDamage.value == "Druid"){
+    		document.getElementById("Druid").style.display = "";
+   		document.getElementById("Mage").style.display = "none";
+		document.getElementById("Ranger").style.display = "none";
+		document.getElementById("Rogue").style.display = "none";
+		document.getElementById("Warrior").style.display = "none";
+	}
+	Else {
+		document.getElementById("Druid").style.display = "none";
+   		document.getElementById("Mage").style.display = "none";
+		document.getElementById("Ranger").style.display = "none";
+		document.getElementById("Rogue").style.display = "none";
+		document.getElementById("Warrior").style.display = "none";
+	}
 }
 
 
