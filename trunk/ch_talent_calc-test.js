@@ -79,12 +79,6 @@ function AutoCalc(){
 }
 
 function showRow(param) {
-	if(param == "Druid"){
-    		
-	}
-	Else {
-		
-	}
 
 }
 
