@@ -80,7 +80,7 @@ function AutoCalc(){
 
 
 function showRow() {
-	if(document.autoDmgForm.PhysicalDamage.value == "Druid"){
+	if(document.autoDmgForm.class-choice.value == "Druid"){
     		document.getElementById("Druid").style.display = "";
    		document.getElementById("Mage").style.display = "none";
 		document.getElementById("Ranger").style.display = "none";
