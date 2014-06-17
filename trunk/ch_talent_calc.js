@@ -82,13 +82,29 @@ function AutoCalc(){
 
 
 function toggle() {
-    	var ele-druid = document.getElementsByName("Druid");
+    	
+var ele-druid = document.getElementsByName("Druid");
 	var ele-mage = document.getElementsByName("Mage");
 	var ele-ranger = document.getElementsByName("Ranger");
 	var ele-rogue = document.getElementsByName("Rogue");
 	var ele-warrior = document.getElementsByName("Warrior");
 	
 	display-block(ele-druid, ele-mage, ele-ranger, ele-rogue, ele-warrior);
+
+	if(document.autoDmgForm.class-choice.value == "Druid"){
+		document.getElementById("Druid").style.display = 'block';
+		document.getElementById("Mage").style.display = 'none';
+		document.getElementById("Ranger").style.display = 'none';		
+		document.getElementById("Rogue").style.display = 'none';	
+		document.getElementById("Warrior").style.display = 'none';
+	}
+	else{
+		document.getElementById("Druid").style.display = 'none';
+		document.getElementById("Mage").style.display = 'block';
+		document.getElementById("Ranger").style.display = 'block';		
+		document.getElementById("Rogue").style.display = 'block';	
+		document.getElementById("Warrior").style.display = 'block';
+	}
 	
 
 }
