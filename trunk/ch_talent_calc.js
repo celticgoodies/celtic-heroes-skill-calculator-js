@@ -78,6 +78,9 @@ function AutoCalc(){
 
 }
 
+
+
+
 function toggle(sel) {
     	var ele-druid = document.getElementsByName("Druid");
 	var ele-mage = document.getElementsByName("Mage");
