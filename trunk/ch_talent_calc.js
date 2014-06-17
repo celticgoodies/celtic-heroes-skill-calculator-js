@@ -88,18 +88,26 @@ function toggle() {
 	var ele-rogue = document.getElementsByName("Rogue");
 	var ele-warrior = document.getElementsByName("Warrior");
 	
-	display-block(ele-druid,"none");
-	display-block(ele-mage,"none");
-	display-block(ele-ranger,"none");
-	display-block(ele-rogue,"none");
-	display-block(ele-warrior,"none");
+	display-block(ele-druid, ele-mage, ele-ranger, ele-rogue, ele-warrior);
 	
 
 }
 
-function display-block(ele, block){
-	for (var i = 0; i < ele.length; i++) {
-            	ele[i].style.display = block;   	
+function display-block(ele1, ele2, ele3, ele4, ele5){
+	for (var i = 0; i < ele1.length; i++) {
+            	ele1[i].style.display = "block";   	
+    	}
+	for (var i = 0; i < ele2.length; i++) {
+            	ele2[i].style.display = "none";   	
+    	}
+	for (var i = 0; i < ele3.length; i++) {
+            	ele3[i].style.display = "none";   	
+    	}
+	for (var i = 0; i < ele4.length; i++) {
+            	ele4[i].style.display = "none";   	
+    	}
+	for (var i = 0; i < ele5.length; i++) {
+            	ele5[i].style.display = "none";   	
     	}
 }
 
