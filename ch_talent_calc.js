@@ -27,7 +27,9 @@ function calc(){
 	document.autoSumForm.Vines.value = Math.round((49.811 * Math.sqrt(Focus)) + (15.81 * Math.sqrt(NatureMagic)) + 265.82);
 	document.autoSumForm.HowlingWind.value = Math.round((38.207 * Math.sqrt(Focus)) + (10.886 * Math.sqrt(NatureMagic)) + 693.63);
 	document.autoSumForm.LightningStrike.value = Math.round((73.547 * Math.sqrt(Focus)) + (20.743 * Math.sqrt(NatureMagic)) + 327.29);
-	
+	document.autoSumForm.EnergyHarvest.value = Math.round((16.908 * Math.sqrt(Focus)) + (4.7469 * Math.sqrt(NatureMagic)) + 132.4);
+	document.autoSumForm.Sanctuary.value = Math.round((5.5015 * Math.sqrt(Focus)) + (2.6713 * Math.sqrt(NatureMagic)) + 520.82);
+	document.autoSumForm.Wards.value = Math.round((12.214 * Math.sqrt(Focus)) + (3.8608 * Math.sqrt(NatureMagic)) + 193.29);	
 
 	document.autoSumForm.FireAttunement.value = Math.round((22.331 * Math.sqrt(Focus)) + (10.044 * Math.sqrt(FireMagic)) + 307.16);
 	document.autoSumForm.FireBolt.value = Math.round((72.853 * Math.sqrt(Focus)) + (21.611 * Math.sqrt(FireMagic)) + 264.84);
