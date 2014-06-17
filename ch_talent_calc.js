@@ -81,7 +81,7 @@ function AutoCalc(){
 
 
 
-function toggle(sel) {
+function toggle() {
     	var ele-druid = document.getElementsByName("Druid");
 	var ele-mage = document.getElementsByName("Mage");
 	var ele-ranger = document.getElementsByName("Ranger");
@@ -89,6 +89,10 @@ function toggle(sel) {
 	var ele-warrior = document.getElementsByName("Warrior");
 	
 	display-block(ele-druid,"none");
+	display-block(ele-mage,"none");
+	display-block(ele-ranger,"none");
+	display-block(ele-rogue,"none");
+	display-block(ele-warrior,"none");
 	
 
 }
