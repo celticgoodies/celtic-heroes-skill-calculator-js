@@ -78,9 +78,6 @@ function AutoCalc(){
 
 }
 
-function showRow(param) {
-
-}
 
 
 
