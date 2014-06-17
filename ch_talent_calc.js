@@ -77,3 +77,22 @@ function AutoCalc(){
 	document.autoDmgForm.AutoDmgCalc.value = Math.round((((0.15818 * Math.sqrt(StrAutoCalc)) + (0.061069 * Math.sqrt(WeaponAbility)) + 0.96523) * Number(PhysicalDamage)) + Number(ElementalDamage));
 
 }
+
+function toggle(sel) {
+    	var ele-druid = document.getElementsByName("Druid");
+	var ele-mage = document.getElementsByName("Mage");
+	var ele-ranger = document.getElementsByName("Ranger");
+	var ele-rogue = document.getElementsByName("Rogue");
+	var ele-warrior = document.getElementsByName("Warrior");
+	
+	display-block(ele-druid,"none");
+	
+
+}
+
+function display-block(ele, block){
+	for (var i = 0; i < ele.length; i++) {
+            	ele[i].style.display = block;   	
+    	}
+}
+
