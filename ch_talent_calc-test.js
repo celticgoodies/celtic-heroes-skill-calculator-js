@@ -78,9 +78,9 @@ function AutoCalc(){
 
 }
 
-function showRow() {
-	var class=document.getElementById('class-choice').value;
-	if(class == "Druid"){
+function showRow(param) {
+	var class = document.getElementById('class-choice').value;
+	if(param == "Druid"){
     		document.getElementById("Druid").style.display = "";
    		document.getElementById("Mage").style.display = "none";
 		document.getElementById("Ranger").style.display = "none";
