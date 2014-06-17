@@ -79,6 +79,11 @@ function AutoCalc(){
 }
 
 
-
+function showRow(rowId) {
+    document.getElementById(rowId).style.display = "";
+}
+function hideRow(rowId) {
+    document.getElementById(rowId).style.display = "none";
+}
 
 
