@@ -80,10 +80,10 @@ function AutoCalc(){
 
 function showRow(param) {
 	if(param == "Druid"){
-    		document.autoSumForm.NatureMagic_field.value = "3500";
+    		
 	}
 	Else {
-		document.autoSumForm.NatureMagic_field.value = "200";	
+		
 	}
 
 }
