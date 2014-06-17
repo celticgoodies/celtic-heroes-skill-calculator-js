@@ -81,49 +81,4 @@ function AutoCalc(){
 
 
 
-function toggle() {
-    	
-var ele-druid = document.getElementsByName("Druid");
-	var ele-mage = document.getElementsByName("Mage");
-	var ele-ranger = document.getElementsByName("Ranger");
-	var ele-rogue = document.getElementsByName("Rogue");
-	var ele-warrior = document.getElementsByName("Warrior");
-	
-	display-block(ele-druid, ele-mage, ele-ranger, ele-rogue, ele-warrior);
-
-	if(document.autoDmgForm.class-choice.value == "Druid"){
-		document.getElementById("Druid").style.display = 'block';
-		document.getElementById("Mage").style.display = 'none';
-		document.getElementById("Ranger").style.display = 'none';		
-		document.getElementById("Rogue").style.display = 'none';	
-		document.getElementById("Warrior").style.display = 'none';
-	}
-	else{
-		document.getElementById("Druid").style.display = 'none';
-		document.getElementById("Mage").style.display = 'block';
-		document.getElementById("Ranger").style.display = 'block';		
-		document.getElementById("Rogue").style.display = 'block';	
-		document.getElementById("Warrior").style.display = 'block';
-	}
-	
-
-}
-
-function display-block(ele1, ele2, ele3, ele4, ele5){
-	for (var i = 0; i < ele1.length; i++) {
-            	ele1[i].style.display = "block";   	
-    	}
-	for (var i = 0; i < ele2.length; i++) {
-            	ele2[i].style.display = "none";   	
-    	}
-	for (var i = 0; i < ele3.length; i++) {
-            	ele3[i].style.display = "none";   	
-    	}
-	for (var i = 0; i < ele4.length; i++) {
-            	ele4[i].style.display = "none";   	
-    	}
-	for (var i = 0; i < ele5.length; i++) {
-            	ele5[i].style.display = "none";   	
-    	}
-}
 
