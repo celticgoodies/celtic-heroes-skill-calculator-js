@@ -80,7 +80,7 @@ function AutoCalc(){
 
 function showRow(param){
 	if(param == "Druid"){
-		document.getElementById("Druid").style.display = ''; 
+		document.getElementById("Druid").style.display = 'table-row'; 
 		document.getElementById("Mage").style.display = 'none';
 		document.getElementById("Ranger").style.display = 'none';
 		document.getElementById("Rogue").style.display = 'none';
