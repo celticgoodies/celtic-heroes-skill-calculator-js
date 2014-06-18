@@ -78,6 +78,24 @@ function AutoCalc(){
 
 }
 
+function showRow(param){
+	if(param == "Druid"){
+		document.getElementById("Druid").style.display = ''; 
+		document.getElementById("Mage").style.display = 'none';
+		document.getElementById("Ranger").style.display = 'none';
+		document.getElementById("Rogue").style.display = 'none';
+		document.getElementById("Warrior").style.display = 'none';
+	}
+	else{
+		document.getElementById("Druid").style.display = 'none'; 
+		document.getElementById("Mage").style.display = 'none';
+		document.getElementById("Ranger").style.display = 'none';
+		document.getElementById("Rogue").style.display = 'none';
+		document.getElementById("Warrior").style.display = 'none';
+	}
+
+}
+
 
 
 
