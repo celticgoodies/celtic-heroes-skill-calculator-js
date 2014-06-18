@@ -1,4 +1,4 @@
-2:52 PM 6/17/2014function startCalc(){
+function startCalc(){
   interval = setInterval("calc()",1);
 }
 function stopCalc(){
