@@ -45,8 +45,8 @@ function calc(){
 	document.autoSumForm.IceLure.value = Math.round((17.516 * Math.sqrt(Focus)) + (5.1609 * Math.sqrt(IceMagic)) + 219.08);
 
 	document.autoSumForm.SharpenWeapons.value = Math.round((2.2751 * Math.sqrt(Dexterity)) + (0.57194 * Math.sqrt(RangedCombat)) + 53.973);
-	document.autoSumForm.SteadyAimAttack.value = Math.round((8.273 * Math.sqrt(Dexterity)) + (3.8118 * Math.sqrt(Ranged Combat)) + 133.95);
-	document.autoSumForm.SteadyAimDamage.value = Math.round((2.6887 * Math.sqrt(Dexterity)) + (1.0223 * Math.sqrt(Ranged Combat)) + 47.196);
+	document.autoSumForm.SteadyAimAttack.value = Math.round((8.273 * Math.sqrt(Dexterity)) + (3.8118 * Math.sqrt(RangedCombat)) + 133.95);
+	document.autoSumForm.SteadyAimDamage.value = Math.round((2.6887 * Math.sqrt(Dexterity)) + (1.0223 * Math.sqrt(RangedCombat)) + 47.196);
 
 	document.autoSumForm.ExposeWeakness.value = Math.round((34.648 * Math.sqrt(Dexterity)) + (9.7154 * Math.sqrt(Cunning)) + 356.56);
 	document.autoSumForm.FastReflexes.value = Math.round((33.097 * Math.sqrt(Dexterity)) + (10.568 * Math.sqrt(Cunning)) + 208.2);
