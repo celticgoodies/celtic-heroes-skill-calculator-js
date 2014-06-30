@@ -62,6 +62,8 @@ function calc(){
 	document.autoSumForm.DefensiveFormation.value = Math.round((16.664 * Math.sqrt(Vitality)) + (5.1654 * Math.sqrt(Melee)) + 101.07);
 	document.autoSumForm.ProtectiveStance.value = Math.round((13.86 * Math.sqrt(Vitality)) + (3.9263 * Math.sqrt(Melee)) + 142.4);
 	document.autoSumForm.ShieldWall.value = Math.round((65.35 * Math.sqrt(Vitality)) + (20.662 * Math.sqrt(Melee)) + 726.98);
+	document.autoSumForm.Pummel.value = Math.round((76.485 * Math.sqrt(Strength)) + (21.483 * Math.sqrt(Melee)) + 515.65);
+	document.autoSumForm.Shatter.value = Math.round((9.6315 * Math.sqrt(Strength)) + (2.9745 * Math.sqrt(Melee)) + 136.41);
 }
 
 function startAutoCalc(){
