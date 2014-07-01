@@ -17,7 +17,7 @@ function calc(){
 	NatureMagic = document.autoSumForm.NatureMagic_field.value;
 	FireMagic = document.autoSumForm.FireMagic_field.value;
 	IceMagic = document.autoSumForm.IceMagic_field.value;
-
+	FirstAid = document.autoSumForm.FirstAid_field.value;
 
 
 	document.autoSumForm.Abundance.value = Math.round((19.592 * Math.sqrt(Focus)) + (6.1866 * Math.sqrt(NatureMagic)) + Number(411.94));
@@ -47,6 +47,8 @@ function calc(){
 	document.autoSumForm.SharpenWeapons.value = Math.round((2.2751 * Math.sqrt(Dexterity)) + (0.57194 * Math.sqrt(RangedCombat)) + 53.973);
 	document.autoSumForm.SteadyAimAttack.value = Math.round((8.273 * Math.sqrt(Dexterity)) + (3.8118 * Math.sqrt(RangedCombat)) + 133.95);
 	document.autoSumForm.SteadyAimDamage.value = Math.round((2.6887 * Math.sqrt(Dexterity)) + (1.0223 * Math.sqrt(RangedCombat)) + 47.196);
+	document.autoSumForm.LightHeal.value = Math.round((28.916 * Math.sqrt(Dexterity)) + (7.9938 * Math.sqrt(FirstAid)) + 158.14);
+
 
 	document.autoSumForm.ExposeWeakness.value = Math.round((34.648 * Math.sqrt(Dexterity)) + (9.7154 * Math.sqrt(Cunning)) + 356.56);
 	document.autoSumForm.FastReflexes.value = Math.round((33.097 * Math.sqrt(Dexterity)) + (10.568 * Math.sqrt(Cunning)) + 208.2);
