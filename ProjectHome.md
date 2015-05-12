@@ -1,0 +1,1 @@
+A Celtic Heroes skill calculator for level 50 skills, used at http://celticheroes.blogspot.com
